@@ -38,17 +38,18 @@
 	.titleBar h3{display:inline-block; border:2px solid white; color:white; border-radius:50%;}
 	.titleBar h2{display:inline-block; color:white;}
 
-	.container{width:100%; padding:10px; max-width:1000px; margin:10px; background:white; border:1px solid black; border-radius:10px;}
+	.container{width:100%; padding:10px; max-width:1000px; margin:10px; background:white; border:1px solid black; border-radius:10px; animation:fadeIn 0.5s;}
 
 
 	/* LOADING SCREEN ELEMENTS */
-	#loader {position:static; top:0; left:0; right:0; bottom:0;
+	#loader {position:static; top:0; left:0; right:0; bottom:0; opacity:1;
 		linear-gradient(270deg, #172cc3, #288537, #b47f26);
 		background-size: 600% 600%;
 		-webkit-animation: loaderAnim 4s ease infinite;
     		-moz-animation: loaderAnim 4s ease infinite;
     		animation: loaderAnim 4s ease infinite;
 		z-index:1000; text-align:center;
+		transition: opacity 1s;
 	       }
 	#loaderLogo {z-indez:1001; position:static; color:white; font-size:21px; font-weight:bold; top:30%; margin:auto;}
 
@@ -66,5 +67,10 @@
 	    0%{background-position:0% 50%;}
 	    50%{background-position:100% 50%;}
 	    100%{background-position:0% 50%;}
+	}
+
+	@keyframes fadeIn {
+		0%{opacity:0;}
+		100%{opacity:1;}
 	}
 
