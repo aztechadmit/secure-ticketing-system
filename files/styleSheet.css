@@ -44,7 +44,7 @@
 
 	/* LOADING SCREEN ELEMENTS */
 	#loader {position:fixed; top:0; left:0; right:0; bottom:0; opacity:1;
-		linear-gradient(270deg, #172cc3, #288537, #b47f26);
+		background:linear-gradient(270deg, #172cc3, #288537, #b47f26);
 		background-size: 600% 600%;
 		-webkit-animation: loaderAnim 4s ease infinite;
     		-moz-animation: loaderAnim 4s ease infinite;
