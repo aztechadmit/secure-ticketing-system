@@ -13,7 +13,7 @@ function runHead(){
 	// Set color of title bars to accent color
 		header.style.backgroundColor = accentColor;
 		for(i = 0; i < titleBars.length; i++) {
-	    cols[i].style.backgroundColor = accentColor;
+	    titleBars[i].style.backgroundColor = accentColor;
 	  	}
 	header.innerHTML = "<img src='"+imLink+"'>";
 	footer.innerHTML = "<p class='disclaimer'>Powered by Aztech Admit <em>Secure Ticketing Services</em></p> <p><a href=''>Terms of Service</a> | <a href=''>Cookie Settings</a> | <a href=''>Security</a> | <a href=''>Report Issue</a>";
