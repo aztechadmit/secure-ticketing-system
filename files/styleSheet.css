@@ -21,7 +21,7 @@
 
 
 	/* USER INPUT ELEMENTS */
-	button {padding:10px; border:1px solid black; background:navy; color:white; border-radius:10px; transition:0.5s;}
+	button {padding:10px; border:1px solid black; background:dimGray; color:white; border-radius:10px; transition:0.5s;}
 	button:hover {scale:1.05; background:azure; color:black;}
 
 	input {padding:10px; border-radius:10px; border:1px solid black;};
