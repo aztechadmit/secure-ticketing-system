@@ -1,1 +1,58 @@
+/* GENERAL STYLE SHEET FOR TICKETING SERVICE */
+
+	/* BODY */
+	* {  box-sizing: border-box; } html { scroll-behavior: smooth; }
+	body {	font-size:15px; line-height:1.6;
+    		font-family:arial; 
+    		margin:0;
+	     }
+
+
+
+
+	/* HEADER AND FOOTER */
+	header {position:static; top:0; left:0; right:0; width:full; height:60px; text-align:center;}
+	header img {height:50px; margin:5px; width:auto;}
+	footer{width:full; background:#efefef; text-align:center;}
+
+
+
+
+	/* USER INPUT ELEMENTS */
+	button {padding:10px; border:1px solid black; background:navy; color:white; border-radius:10px; transition:0.5s;}
+	button:hover {scale:1.05; background:azure; color:black;}
+
+	input {padding:10px; border-radius:10px; border:1px solid black;};
+
+	dropdown: {padding: 10px; border-radius:10px; border:1px solid black;}
+
+
+
+
+	/* LOADING SCREEN ELEMENTS */
+	loader {position:static; top:0; left:0; right:0; bottom:0;
+		linear-gradient(270deg, #172cc3, #288537, #b47f26);
+		background-size: 600% 600%;
+		-webkit-animation: loaderAnim 4s ease infinite;
+    		-moz-animation: loaderAnim 4s ease infinite;
+    		animation: loaderAnim 4s ease infinite;
+		z-index:1000;
+	       }
+	loaderLogo {z-indez:1001; position:static; color:white; font-size:21px; font-weight:bold;}
+
+	@-webkit-keyframes loaderAnim {
+	    0%{background-position:0% 50%;}
+	    50%{background-position:100% 50%;}
+	    100%{background-position:0% 50%;}
+	}
+	@-moz-keyframes loaderAnim {
+	    0%{background-position:0% 50%;}
+	    50%{background-position:100% 50%;}
+	    100%{background-position:0% 50%;}
+	}
+	@keyframes loaderAnim {
+	    0%{background-position:0% 50%;}
+	    50%{background-position:100% 50%;}
+	    100%{background-position:0% 50%;}
+	}
 
