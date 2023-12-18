@@ -36,7 +36,7 @@
 	.disclaimer {font-size:12px;}
 
 	.titleBar {width:100%; margin:10px; color:white; text-align:left; border:1px solid black; border-radius:10px;}
-	.titleBar h3{display:inline-block; border:2px solid white; color:white; border-radius:50%;}
+	.titleBar h3{display:inline-block; border:2px solid white; color:white; border-radius:50%; padding:8px;}
 	.titleBar h2{display:inline-block; color:white;}
 
 	.container{width:100%; padding:10px; max-width:1000px; margin:10px; background:white; border:1px solid black; border-radius:10px; animation:fadeIn 0.5s;}
