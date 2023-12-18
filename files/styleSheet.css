@@ -48,9 +48,9 @@
 		-webkit-animation: loaderAnim 4s ease infinite;
     		-moz-animation: loaderAnim 4s ease infinite;
     		animation: loaderAnim 4s ease infinite;
-		z-index:1000;
+		z-index:1000; text-align:center;
 	       }
-	#loaderLogo {z-indez:1001; position:static; color:white; font-size:21px; font-weight:bold;}
+	#loaderLogo {z-indez:1001; position:static; color:white; font-size:21px; font-weight:bold; top:30%; margin:auto;}
 
 	@-webkit-keyframes loaderAnim {
 	    0%{background-position:0% 50%;}
