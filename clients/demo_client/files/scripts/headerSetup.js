@@ -1,6 +1,6 @@
 // CLIENT SPECIFIC CUSTOMIZATION
 const imLink = "client_image_link"; // Header Logo Image Link
-const accentColor = "#271399";		// Color used for buttons, headings, etc.
+const accentColor = "green";		// Color used for buttons, headings, etc.
 
 // CODE
 const header = document.getElementById("header");
