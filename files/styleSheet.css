@@ -52,7 +52,7 @@
 		z-index:1000; text-align:center;
 		transition: opacity 1s;
 	       }
-	#loaderLogo {z-indez:1001; position:static; color:white; font-size:21px; font-weight:bold; top:30%; margin:auto;}
+	#loaderLogo {z-indez:1001; position:fixed; color:white; font-size:21px; font-weight:bold; top:50%; margin:auto;}
 
 	@-webkit-keyframes loaderAnim {
 	    0%{background-position:0% 50%;}
