@@ -16,7 +16,7 @@ function runHead(){
 	    titleBars[i].style.backgroundColor = accentColor;
 	  	}
 	header.innerHTML = "<img src='"+imLink+"'>";
-	footer.innerHTML = "<p class='disclaimer'>Powered by Aztech Admit <em>Secure Ticketing Services</em></p> <p><a href=''>Terms of Service</a> | <a href=''>Cookie Settings</a> | <a href=''>Security</a> | <a href=''>Report Issue</a>";
+	footer.innerHTML = "<br><br><br><p class='disclaimer'>Powered by Aztech Admit <em>Secure Ticketing Services</em></p> <p><a href=''>Terms of Service</a> | <a href=''>Cookie Settings</a> | <a href=''>Security</a> | <a href=''>Report Issue</a>";
 }
 
 function finishLoad(delay){
